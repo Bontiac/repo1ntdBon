@@ -1,0 +1,101 @@
+:root {
+  --light-red: #e61254;
+  --dark-red: #b12025;
+  --gray: #292929;
+  --dark: #221f1f;
+  --white: #ffffff;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(41, 41, 41, 0.8) 0%,
+      rgba(41, 41, 41, 0.8) 100%
+    ),
+    url("../assets/img/bg-precios.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+}
+header.masthead h1 {
+  font-size: 3rem;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+header .container h1 {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+header span.divide {
+  width: 150px;
+  height: 5px;
+  background-color: var(--light-red);
+  margin: 2.5rem 0;
+}
+
+header p {
+  color: white;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  text-align: center;
+}
+
+header p span {
+  font-weight: 700;
+  color: var(--light-red);
+}
+
+header .btn-precios {
+  border: none;
+  background-color: var(--light-red);
+  width: 15rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+
+header .btn-precios:hover {
+  background-color: var(--white);
+  color: var(--light-red);
+}
+
+@media (max-width: 1200px) {
+  header .container h1 {
+    font-size: 2.5rem;
+  }
+
+  header .container p {
+    font-size: 1.2rem;
+  }
+
+  header .container .btn-precios {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
