@@ -15,6 +15,7 @@
  */
 
 :root {
+<<<<<<< HEAD
 <<<<<<< master
   --blue: #007bff;
   --indigo: #6610f2;
@@ -54,6 +55,8 @@
   --white: #FFFFFF;
 
 =======
+=======
+>>>>>>> Bontiac
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -82,7 +85,10 @@
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+<<<<<<< HEAD
 >>>>>>> Cambio de Naranja a Rojo
+=======
+>>>>>>> Bontiac
 }
 
 *,
@@ -1165,6 +1171,7 @@ pre code {
         margin-left: 91.6666666667%;
     }
 }
+<<<<<<< HEAD
 
 @media (min-width: 768px) {
     .col-md {
@@ -1335,11 +1342,17 @@ pre code {
 
 @media (min-width: 992px) {
     .col-lg {
+=======
+
+@media (min-width: 768px) {
+    .col-md {
+>>>>>>> Bontiac
         flex-basis: 0;
         flex-grow: 1;
         min-width: 0;
         max-width: 100%;
     }
+<<<<<<< HEAD
     .row-cols-lg-1>* {
         flex: 0 0 100%;
         max-width: 100%;
@@ -1365,10 +1378,38 @@ pre code {
         max-width: 16.6666666667%;
     }
     .col-lg-auto {
+=======
+    .row-cols-md-1>* {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row-cols-md-2>* {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .row-cols-md-3>* {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+    .row-cols-md-4>* {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .row-cols-md-5>* {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .row-cols-md-6>* {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+    .col-md-auto {
+>>>>>>> Bontiac
         flex: 0 0 auto;
         width: auto;
         max-width: 100%;
     }
+<<<<<<< HEAD
     .col-lg-1 {
         flex: 0 0 8.3333333333%;
         max-width: 8.3333333333%;
@@ -1496,10 +1537,578 @@ pre code {
         margin-left: 83.3333333333%;
     }
     .offset-lg-11 {
+=======
+    .col-md-1 {
+        flex: 0 0 8.3333333333%;
+        max-width: 8.3333333333%;
+    }
+    .col-md-2 {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-md-4 {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+    .col-md-5 {
+        flex: 0 0 41.6666666667%;
+        max-width: 41.6666666667%;
+    }
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-md-7 {
+        flex: 0 0 58.3333333333%;
+        max-width: 58.3333333333%;
+    }
+    .col-md-8 {
+        flex: 0 0 66.6666666667%;
+        max-width: 66.6666666667%;
+    }
+    .col-md-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-md-10 {
+        flex: 0 0 83.3333333333%;
+        max-width: 83.3333333333%;
+    }
+    .col-md-11 {
+        flex: 0 0 91.6666666667%;
+        max-width: 91.6666666667%;
+    }
+    .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .order-md-first {
+        order: -1;
+    }
+    .order-md-last {
+        order: 13;
+    }
+    .order-md-0 {
+        order: 0;
+    }
+    .order-md-1 {
+        order: 1;
+    }
+    .order-md-2 {
+        order: 2;
+    }
+    .order-md-3 {
+        order: 3;
+    }
+    .order-md-4 {
+        order: 4;
+    }
+    .order-md-5 {
+        order: 5;
+    }
+    .order-md-6 {
+        order: 6;
+    }
+    .order-md-7 {
+        order: 7;
+    }
+    .order-md-8 {
+        order: 8;
+    }
+    .order-md-9 {
+        order: 9;
+    }
+    .order-md-10 {
+        order: 10;
+    }
+    .order-md-11 {
+        order: 11;
+    }
+    .order-md-12 {
+        order: 12;
+    }
+    .offset-md-0 {
+        margin-left: 0;
+    }
+    .offset-md-1 {
+        margin-left: 8.3333333333%;
+    }
+    .offset-md-2 {
+        margin-left: 16.6666666667%;
+    }
+    .offset-md-3 {
+        margin-left: 25%;
+    }
+    .offset-md-4 {
+        margin-left: 33.3333333333%;
+    }
+    .offset-md-5 {
+        margin-left: 41.6666666667%;
+    }
+    .offset-md-6 {
+        margin-left: 50%;
+    }
+    .offset-md-7 {
+        margin-left: 58.3333333333%;
+    }
+    .offset-md-8 {
+        margin-left: 66.6666666667%;
+    }
+    .offset-md-9 {
+        margin-left: 75%;
+    }
+    .offset-md-10 {
+        margin-left: 83.3333333333%;
+    }
+    .offset-md-11 {
+>>>>>>> Bontiac
         margin-left: 91.6666666667%;
     }
 }
 
+<<<<<<< HEAD
+@media (min-width: 1200px) {
+    .col-xl {
+=======
+@media (min-width: 992px) {
+    .col-lg {
+>>>>>>> Bontiac
+        flex-basis: 0;
+        flex-grow: 1;
+        min-width: 0;
+        max-width: 100%;
+    }
+<<<<<<< HEAD
+    .row-cols-xl-1>* {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row-cols-xl-2>* {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .row-cols-xl-3>* {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+    .row-cols-xl-4>* {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .row-cols-xl-5>* {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .row-cols-xl-6>* {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+    .col-xl-auto {
+=======
+    .row-cols-lg-1>* {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row-cols-lg-2>* {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .row-cols-lg-3>* {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+    .row-cols-lg-4>* {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .row-cols-lg-5>* {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .row-cols-lg-6>* {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+    .col-lg-auto {
+>>>>>>> Bontiac
+        flex: 0 0 auto;
+        width: auto;
+        max-width: 100%;
+    }
+<<<<<<< HEAD
+    .col-xl-1 {
+        flex: 0 0 8.3333333333%;
+        max-width: 8.3333333333%;
+    }
+    .col-xl-2 {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+    .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xl-4 {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+    .col-xl-5 {
+        flex: 0 0 41.6666666667%;
+        max-width: 41.6666666667%;
+    }
+    .col-xl-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-xl-7 {
+        flex: 0 0 58.3333333333%;
+        max-width: 58.3333333333%;
+    }
+    .col-xl-8 {
+        flex: 0 0 66.6666666667%;
+        max-width: 66.6666666667%;
+    }
+    .col-xl-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-xl-10 {
+        flex: 0 0 83.3333333333%;
+        max-width: 83.3333333333%;
+    }
+    .col-xl-11 {
+        flex: 0 0 91.6666666667%;
+        max-width: 91.6666666667%;
+    }
+    .col-xl-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .order-xl-first {
+        order: -1;
+    }
+    .order-xl-last {
+        order: 13;
+    }
+    .order-xl-0 {
+        order: 0;
+    }
+    .order-xl-1 {
+        order: 1;
+    }
+    .order-xl-2 {
+        order: 2;
+    }
+    .order-xl-3 {
+        order: 3;
+    }
+    .order-xl-4 {
+        order: 4;
+    }
+    .order-xl-5 {
+        order: 5;
+    }
+    .order-xl-6 {
+        order: 6;
+    }
+    .order-xl-7 {
+        order: 7;
+    }
+    .order-xl-8 {
+        order: 8;
+    }
+    .order-xl-9 {
+        order: 9;
+    }
+    .order-xl-10 {
+        order: 10;
+    }
+    .order-xl-11 {
+        order: 11;
+    }
+    .order-xl-12 {
+        order: 12;
+    }
+    .offset-xl-0 {
+        margin-left: 0;
+    }
+    .offset-xl-1 {
+        margin-left: 8.3333333333%;
+    }
+    .offset-xl-2 {
+        margin-left: 16.6666666667%;
+    }
+    .offset-xl-3 {
+        margin-left: 25%;
+    }
+    .offset-xl-4 {
+        margin-left: 33.3333333333%;
+    }
+    .offset-xl-5 {
+        margin-left: 41.6666666667%;
+    }
+    .offset-xl-6 {
+        margin-left: 50%;
+    }
+    .offset-xl-7 {
+        margin-left: 58.3333333333%;
+    }
+    .offset-xl-8 {
+        margin-left: 66.6666666667%;
+    }
+    .offset-xl-9 {
+        margin-left: 75%;
+    }
+    .offset-xl-10 {
+        margin-left: 83.3333333333%;
+    }
+    .offset-xl-11 {
+=======
+    .col-lg-1 {
+        flex: 0 0 8.3333333333%;
+        max-width: 8.3333333333%;
+    }
+    .col-lg-2 {
+        flex: 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-lg-4 {
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+    .col-lg-5 {
+        flex: 0 0 41.6666666667%;
+        max-width: 41.6666666667%;
+    }
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-lg-7 {
+        flex: 0 0 58.3333333333%;
+        max-width: 58.3333333333%;
+    }
+    .col-lg-8 {
+        flex: 0 0 66.6666666667%;
+        max-width: 66.6666666667%;
+    }
+    .col-lg-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-lg-10 {
+        flex: 0 0 83.3333333333%;
+        max-width: 83.3333333333%;
+    }
+    .col-lg-11 {
+        flex: 0 0 91.6666666667%;
+        max-width: 91.6666666667%;
+    }
+    .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .order-lg-first {
+        order: -1;
+    }
+    .order-lg-last {
+        order: 13;
+    }
+    .order-lg-0 {
+        order: 0;
+    }
+    .order-lg-1 {
+        order: 1;
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+    .order-lg-3 {
+        order: 3;
+    }
+    .order-lg-4 {
+        order: 4;
+    }
+    .order-lg-5 {
+        order: 5;
+    }
+    .order-lg-6 {
+        order: 6;
+    }
+    .order-lg-7 {
+        order: 7;
+    }
+    .order-lg-8 {
+        order: 8;
+    }
+    .order-lg-9 {
+        order: 9;
+    }
+    .order-lg-10 {
+        order: 10;
+    }
+    .order-lg-11 {
+        order: 11;
+    }
+    .order-lg-12 {
+        order: 12;
+    }
+    .offset-lg-0 {
+        margin-left: 0;
+    }
+    .offset-lg-1 {
+        margin-left: 8.3333333333%;
+    }
+    .offset-lg-2 {
+        margin-left: 16.6666666667%;
+    }
+    .offset-lg-3 {
+        margin-left: 25%;
+    }
+    .offset-lg-4 {
+        margin-left: 33.3333333333%;
+    }
+    .offset-lg-5 {
+        margin-left: 41.6666666667%;
+    }
+    .offset-lg-6 {
+        margin-left: 50%;
+    }
+    .offset-lg-7 {
+        margin-left: 58.3333333333%;
+    }
+    .offset-lg-8 {
+        margin-left: 66.6666666667%;
+    }
+    .offset-lg-9 {
+        margin-left: 75%;
+    }
+    .offset-lg-10 {
+        margin-left: 83.3333333333%;
+    }
+    .offset-lg-11 {
+>>>>>>> Bontiac
+        margin-left: 91.6666666667%;
+    }
+}
+
+<<<<<<< HEAD
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-sm th,
+.table-sm td {
+    padding: 0.3rem;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody+tbody {
+    border: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-primary,
+.table-primary>th,
+.table-primary>td {
+    background-color: #fcd3c8;
+}
+
+.table-primary th,
+.table-primary td,
+.table-primary thead th,
+.table-primary tbody+tbody {
+    border-color: #f99999;
+}
+
+.table-hover .table-primary:hover {
+    background-color: #fbb0b0;
+}
+
+.table-hover .table-primary:hover>td,
+.table-hover .table-primary:hover>th {
+    background-color: #fbb0b0;
+}
+
+.table-secondary,
+.table-secondary>th,
+.table-secondary>td {
+    background-color: #d6d8db;
+}
+
+.table-secondary th,
+.table-secondary td,
+.table-secondary thead th,
+.table-secondary tbody+tbody {
+    border-color: #b3b7bb;
+}
+
+.table-hover .table-secondary:hover {
+    background-color: #c8cbcf;
+}
+
+.table-hover .table-secondary:hover>td,
+.table-hover .table-secondary:hover>th {
+    background-color: #c8cbcf;
+}
+
+.table-success,
+.table-success>th,
+.table-success>td {
+    background-color: #c3e6cb;
+}
+
+=======
 @media (min-width: 1200px) {
     .col-xl {
         flex-basis: 0;
@@ -1774,6 +2383,7 @@ pre code {
     background-color: #c3e6cb;
 }
 
+>>>>>>> Bontiac
 .table-success th,
 .table-success td,
 .table-success thead th,
