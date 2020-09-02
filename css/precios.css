@@ -74,14 +74,15 @@ header .btn-precios {
   color: white;
   margin-top: 3rem;
   font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 header .btn-precios:hover {
   background-color: var(--white);
   color: var(--light-red);
-}
-
-.main {
 }
 
 .main .container {
@@ -93,7 +94,7 @@ header .btn-precios:hover {
 
 .main .container [class*="card-"] {
   position: relative;
-  background-color: var(--gray);
+  background-color: var(--dark);
   color: white;
   max-width: 350px;
   height: 480px;
@@ -182,6 +183,41 @@ header .btn-precios:hover {
   font-size: 1rem;
   color: var(--light-red);
   margin-right: 0.5rem;
+}
+
+.preguntas-frecuentes {
+  padding: 2rem;
+  text-align: center;
+}
+
+.preguntas-frecuentes h2 {
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.preguntas-frecuentes .card-body,
+.preguntas-frecuentes .card-header {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: left;
+}
+
+.preguntas-frecuentes .card-header {
+  font-size: 5rem;
+}
+
+.card {
+  background-color: var(--dark);
+  border-bottom: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+.preguntas-frecuentes .btn-card {
+  outline: none;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: none;
 }
 
 @media (max-width: 1200px) {
