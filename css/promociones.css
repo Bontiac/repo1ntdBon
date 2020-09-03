@@ -6,3 +6,45 @@ header.masthead {
     background: #DE340A;
     padding: 50px;
 }
+
+.principal {
+    display: flex;
+    background: #ff0000;
+    padding: 20px;
+}
+
+.estreno1 {
+    padding: 20px;
+    background: #233f5a;
+    width: 20%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.estreno2 {
+    padding: 20px;
+    background: #233f5a;
+    width: 20%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.estreno3 {
+    padding: 20px;
+    background: #233f5a;
+    width: 20%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.estreno4 {
+    padding: 20px;
+    background: #233f5a;
+    width: 20%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.piePagina {
+    display: flex;
+}
