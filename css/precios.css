@@ -1,0 +1,262 @@
+:root {
+  --light-red: #e61254;
+  --dark-red: #b12025;
+  --gray: #292929;
+  --dark: #221f1f;
+  --white: #ffffff;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(41, 41, 41, 0.8) 0%,
+      rgba(41, 41, 41, 0.8) 100%
+    ),
+    url("../assets/img/bg-precios.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+}
+header.masthead h1 {
+  font-size: 3rem;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+header .container h1 {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+header span.divide {
+  width: 150px;
+  height: 5px;
+  background-color: var(--light-red);
+  margin: 2.5rem 0;
+}
+
+header p {
+  color: white;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  text-align: center;
+}
+
+header p span {
+  font-weight: 700;
+  color: var(--light-red);
+}
+
+header .btn-precios {
+  border: none;
+  background-color: var(--light-red);
+  width: 15rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+header .btn-precios:hover {
+  background-color: var(--white);
+  color: var(--light-red);
+}
+
+.main .container {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10rem 0;
+}
+
+.main .container [class*="card-"] {
+  position: relative;
+  background-color: var(--dark);
+  color: white;
+  max-width: 350px;
+  height: 480px;
+  margin-right: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.main .container [class*="card-"]::after {
+  content: "Suscribirse";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: var(--light-red);
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.main .container [class*="card-"] h2 {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main .container [class*="card-"] .precio {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--light-red);
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+
+.main .container [class*="card-"] .precio::before {
+  position: absolute;
+  content: "COP/";
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  left: -40px;
+}
+
+.main .container [class*="card-"] h3 {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.main .container [class*="card-"] h3::before {
+  content: "";
+  position: absolute;
+  width: 275px;
+  height: 1px;
+  background-color: white;
+  left: 0%;
+  top: -1rem;
+}
+
+.main .container [class*="card-"] p {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: left;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 1.1rem;
+}
+
+.main .container [class*="card-"] p:first-of-type {
+  margin-top: 2.5rem;
+}
+
+.main .container [class*="card-"] p > svg {
+  font-size: 1rem;
+  color: var(--light-red);
+  margin-right: 0.5rem;
+}
+
+.preguntas-frecuentes {
+  padding: 2rem;
+  text-align: center;
+}
+
+.preguntas-frecuentes h2 {
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.preguntas-frecuentes .card-body,
+.preguntas-frecuentes .card-header {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: left;
+}
+
+.preguntas-frecuentes .card-header {
+  font-size: 5rem;
+}
+
+.card {
+  background-color: var(--dark);
+  border-bottom: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+.preguntas-frecuentes .btn-card {
+  outline: none;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  header .container h1 {
+    font-size: 2.5rem;
+  }
+
+  header .container p {
+    font-size: 1.2rem;
+  }
+
+  header .container .btn-precios {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .main .container [class*="card-"] {
+    height: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .container {
+    padding: 2rem;
+  }
+  header .container h1 {
+    font-size: 2rem;
+  }
+  .main .container {
+    flex-direction: column;
+    max-width: 1100px;
+  }
+
+  .main .container [class*="card-"] {
+    margin-bottom: 5rem;
+  }
+
+  .main .container [class*="card-"]:last-of-type {
+    margin-bottom: 0;
+  }
+}
