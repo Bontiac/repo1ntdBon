@@ -55,40 +55,50 @@
         </div>
     </header>
 
-    <!-- Comentar-->
+
+
+    <!-- Comentarios-->
     <section class="page-section bg-primary" id="comentar">
         <div class="container">
-            <div class="container">
-                <h2 h2 class=" text-white text-center">Haz clic en la sección de abajo sobre la película o serie que deseas comentar.</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h3 class="text-white mb-4">Llena el formulario que encontrarás abajo para compartirnos lo que piensas.</h3>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Oscuro-->
-    <section class="page-section">
-        <div class="container">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <form action="">
+                        <label for="fname" class="text-white">Nombre:</label><br>
+                        <input type="text" id="fname" name="fname" value=""><br><br>
+                        <label for="email" class="text-white">Correo Eléctronico:</label><br>
+                        <input type="text" id="email" name="email" value=""><br><br>
+                        <label for="peli" class="text-white">Pélicula/Serie:</label><br>
+                        <input type="text" id="peli" name="peli" value=""><br><br>
+                        <label for="comment" class="text-white">Tu Comentario:</label><br>
+                        <textarea name="message" id="comment" style="width:300px; height:200px;">
+                        </textarea>
+                        <br>
+                        <input type="submit" value="Enviar Comentario">
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h5 class="text-white mb-4">Nos importa mucho recibir retroalimentación de fans como tú</h5>
                     <h5 class="text-white mb-4">Gracias</h5>
                 </div>
             </div>
+    </section>
+
+    <!-- Comentar-->
+    <section class="page-section bg-dark">
+        <div class="container">
             <div class="container">
-                <div class="row justify-content-center">
-                    <form action="">
-                        <label for="fname">Nombre:</label><br>
-                        <input type="text" id="fname" name="fname" value=""><br>
-                        <label for="email">Correo Eléctronico:</label><br>
-                        <input type="text" id="email" name="email" value=""><br><br>
-                        <label for="peli">Pélicula/Serie:</label><br>
-                        <input type="text" id="peli" name="peli" value=""><br>
-                        <label for="comment">Tu Comentario</label><br>
-                        <textarea name="message" id="comment" style="width:300px; height:200px;">
-                        </textarea>
-                        <input type="submit" value="Enviar Comentario">
-                    </form>
-                </div>
+                <h4 class=" text-white text-center">Aquí abajo encontrarás más películas que puedes disfrutar.</h4>
             </div>
+        </div>
     </section>
 
     <!-- Peliculas/Portfolio-->
@@ -97,7 +107,7 @@
             <div class="row no-gutters">
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box" href="#moduloComentarios">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" href="#moduloComentarios" />
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
                         <div class="portfolio-box-caption">
                             <div class="project-category text-white-50">Películas</div>
                             <div class="project-name">Hater</div>
